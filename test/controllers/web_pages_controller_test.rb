@@ -2,23 +2,27 @@ require 'test_helper'
 
 class WebPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
-    get web_pages_home_url
+    get root_path
     assert_response :success
+    assert_select "title", "Home | DTECHZ"
   end
 
   test "should get about" do
-    get web_pages_about_url
+    get about_path
     assert_response :success
+    assert_select "title", "About | DTECHZ"
   end
 
   test "should get contact" do
-    get web_pages_contact_url
+    get contact_path
     assert_response :success
+    assert_select "title", "Contact | DTECHZ"
   end
 
   test "should get service" do
-    get web_pages_service_url
+    get service_path
     assert_response :success
+    assert_select "title", "Services | DTECHZ"
   end
 
 end

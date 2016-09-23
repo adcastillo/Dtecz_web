@@ -1,3 +1,92 @@
-// Place all the styles related to the WebPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/*---colors-----
+
+
+#A3D249
+#BBDB7B
+#5B5959
+#F1F1F1
+#FFFFFF
+#333333
+#000000
+
+
+*/
+
+/*--------
+Homepage
+------*/
+
+.nav-container{
+	width: 100%;
+	height: 325px;
+	background:  #333;
+	padding-top: 30px;
+	
+	margin-bottom: 30px;
+	border-bottom: solid;
+  border-color: #A3D249;
+  border-width: 10px;
+}
+
+
+
+
+
+.logo_img{
+	width: 1000px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto;
+	
+}
+ .web_img{
+	width: 1000px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto
+	
+} 
+.mobile_img{
+	width: 500px;
+	height: 250px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto
+
+
+}
+.home_info{
+	  width: 80%;
+  height: 500px;
+  background-color:#333333 ;
+  color: white;
+  border-style: solid;
+  border-style: inset;
+  border-width: 10px;
+  border-color: #A3D249;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+  
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10%;
+}
+
+@media (max-width: 615px) {
+	.nav-container{
+		height: 200px;
+		
+	}
+
+	.mobile_img{
+	width: 200px;
+	height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: auto
+
+
+}
+}

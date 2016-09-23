@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= yield(:title) %> | DTECHZ </title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name"viewport" content="width=device-width">
+    
     <%= render 'layouts/shim' %>
     
   </head>
 
   <body>
-  <header>
-  <%= render 'layouts/header' %>
+    
+    <header>
+      <%= render 'layouts/header' %>
 
+    </header>
 
-  
-  		
-  	
-  </header>
-  <div >
-    <%= yield %>
-    </div>
+    
+      <%= yield %>
+     
+    
+    
+    
+      <%= render 'layouts/footer' %>
+    
   </body>
 </html>

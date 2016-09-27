@@ -81,32 +81,26 @@ header{
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #A3D249;
 }
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    
-    background-color: #333;
-}
 
 
 
-.navbar-inverse, .navbar-toggle{
-  background-color: #fdfdfd;
-  
-}
+
 .navbar-nav li a {
     line-height: 50px;
     height: 50px;
-    padding-top: 0;
+    padding-top: 8px;
     
 
 }
 .navbar-inverse .navbar-nav > li > a {
-    color: #fdfdfd;
-     &:hover {
+    color: #f1f1f1;
+    &:hover {
     color: #A3D249;
     text-decoration: none;
 
   }
 }
+
 
 /*-------------
 footer
@@ -152,7 +146,7 @@ width: 40%;
 .contact{
   color: #fff;
   background: #333;
- 
+ height: 325px;
   padding: 3.2em 0;
 
   text-align: center;
@@ -163,8 +157,8 @@ width: 40%;
 
 }
 .img_contact{
-  height: 225px;
-  width: 225px;
+  height: 170px;
+  width: 170px;
   
   padding-top: 10px;
   margin-bottom: 15px;
@@ -194,13 +188,24 @@ width: 40%;
 /*-------------
 About page
 --------*/
+.about_con{
+color: #fff;
+  background: #333;
+ height: 325px;
+  padding: 3.2em 0;
 
-.IT_p{
- max-height:   400px;
- width: 100%;
- border-bottom: solid;
+  text-align: center;
+  border-bottom: solid;
   border-color: #A3D249;
   border-width: 10px;
+  margin-bottom: 20px;
+}
+.IT_p{
+ width: 80%;
+  height: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
 
 }
 
@@ -290,7 +295,8 @@ SERVICE PAGE
 }
 .banner{
   color: #fff;
-  background: #5B5959;
+  background: #333;
+  height: 325px;
   padding: 3.2em 0;
   margin-bottom: 60px;
   text-align: center;
@@ -313,8 +319,8 @@ SERVICE PAGE
 }
 
 .img_ser{
-  height: 225px;
-  width: 225px;
+  height: 200px;
+  width: 200px;
   border-radius: 100%;
   padding-top: 10px;
   margin-bottom: 5px;
@@ -356,30 +362,59 @@ SERVICE PAGE
 
 
 
+/* CONTENT
+-------------------------------------------------- */
 
+/* Center align the text */
+.content .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.content h2 {
+  font-weight: normal;
+}
+.content .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0;
+}
+
+/* Thin out the headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
 
 
 
 /*-------------
 Media querries
 --------*/
-@media (min-width: 767px) {
-  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    
-    background-color: #fdfdfd;
-}
 
-
-.navbar-inverse .navbar-nav > li > a {
-    color: #333;
-     &:hover {
-    color: #A3D249;
-    text-decoration: none;
-
-  }
-}
-
-}
 
 @media (min-width: 900px)
 {
@@ -430,13 +465,7 @@ Media querries
   
   border-bottom: none;
 }
-.IT_p{
- min-height: 425px;
- max-width:40%;
-float: left;
- border-bottom: none;
- display: inline;
-}
+
   
 
 
@@ -454,7 +483,7 @@ float: left;
   margin-top: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
-  border-style: solid;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .off_one, .off_three{
   width: 30%;
@@ -466,8 +495,7 @@ float: left;
   margin-top: 20px;
 margin-left: 20px;
 margin-bottom: 20px;
-border-style: solid;
-border-color: #333333 ;
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .border{
   border-bottom:  2px solid #333333;

@@ -1,7 +1,7 @@
 
 <% provide(:title, "Home")%>
 
-	<div>
+	
 	<div class="nav-container">
 		<div id="myCarousel" class="carousel slide slide_pos" data-ride="carousel">
   <!-- Indicators -->
@@ -30,10 +30,17 @@
 								
 		</div>
 	</div>
-<div class="container">
-	<div class="home_info ">
-	<h1>WHY CHOOSE DTECHZ?</h1>
-	<p>DTECHZ has been serving East Texas and the surrounding area for over 10 years. Our experienced team of developers and computer techs can handle just about any tech question, development request, website design, or computer repair that comes our way.</p>
-	</div>
-</div>
-</div>
+<div class="container content">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">WHY CHOOSE DTECHZ?</h2>
+          <p class="lead">DTECHZ has been serving East Texas and the surrounding area for over 10 years. Our experienced team of developers and computer techs can handle just about any tech question, development request, website design, or computer repair that comes our way.</p>
+        </div>
+        <div class="col-md-5">
+          <%= image_tag("question_500x500.png", alt: "Why choose dtechz?",  class:"featurette-image img-responsive center-block" ) %>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+ 

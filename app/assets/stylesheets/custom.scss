@@ -69,23 +69,43 @@ header{
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
+  padding-bottom: 9px;
   font-weight: bold;
   padding-left: 9px;
   &:hover {
-    color: white;
+    color: #333;
     text-decoration: none;
 
   }
 }
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #A3D249;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    
+    background-color: #333;
+}
 
 
-.navbar-inverse{
-  background-color: #333333;
+
+.navbar-inverse, .navbar-toggle{
+  background-color: #fdfdfd;
+  
 }
 .navbar-nav li a {
     line-height: 50px;
     height: 50px;
     padding-top: 0;
+    
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fdfdfd;
+     &:hover {
+    color: #A3D249;
+    text-decoration: none;
+
+  }
 }
 
 /*-------------
@@ -343,10 +363,28 @@ SERVICE PAGE
 /*-------------
 Media querries
 --------*/
+@media (min-width: 767px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    
+    background-color: #fdfdfd;
+}
 
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #333;
+     &:hover {
+    color: #A3D249;
+    text-decoration: none;
+
+  }
+}
+
+}
 
 @media (min-width: 900px)
 {
+
+  
 
   .container_about{
     width: 100%;
@@ -354,12 +392,13 @@ Media querries
   
   background-color:#333333 ;
   color: white;
-  border-style: solid;
-  border-style: inset;
+  border-bottom: solid;
+  border-top: solid;
+  
   border-width: 10px;
   border-color: #A3D249;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  
+  
   
   margin: auto;
   margin-bottom: 20px;
@@ -453,12 +492,11 @@ service page
   height: 500px;
   background-color:#333333 ;
   color: white;
-  border-style: solid;
-  border-style: inset;
-  border-width: 10px;
-  border-color: #A3D249;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  border-style: none;
+ 
+  
+  
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   float: left;
   margin-left: 30px;
  
@@ -470,11 +508,11 @@ service page
   height: 500px;
   background-color:#333333 ;
   color: white;
-  border-style: inset;
-  border-width: 10px;
-  border-color: #A3D249;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #888888;
+  border-style: none;
+ 
+  
+  
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   float: left;
   margin-left: 20px;
   margin-bottom: 30px;
@@ -489,11 +527,11 @@ service page
   
   float: left;
   margin-left:  20px;
-border-style: inset;
-border-width: 10px;
-  border-color: #A3D249;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px #888888;
+border-style: none;
+ 
+  
+  
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   margin-bottom: 30px;
 
 }

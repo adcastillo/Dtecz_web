@@ -70,15 +70,39 @@ Homepage
   box-shadow: 10px 10px 5px #888888;
   
   margin: auto;
-  margin-bottom: 20px;
-  padding: 10%;
+  margin-bottom: 30px;
+  padding: 8%;
 }
+
+
+/*--------
+ media queries
+------*/
+@media (min-width: 800px) {
+  /*---------------
+home page
+----------------*/
+.home_info p{
+	font-size: 25px;
+}
+
+
+}
+
+@media (max-width: 615px) {
+
 
 
 /*--------
 Homepage media queries
 ------*/
-@media (max-width: 615px) {
+
+
+
+
+
+
+
 	.nav-container{
 		height: 200px;
 		
@@ -104,6 +128,7 @@ contact page media queries
 	.contact h1{
  
   font-size: 45px;
+
 
 }
 

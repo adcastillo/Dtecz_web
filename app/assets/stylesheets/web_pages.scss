@@ -74,6 +74,10 @@ Homepage
   padding: 10%;
 }
 
+
+/*--------
+Homepage media queries
+------*/
 @media (max-width: 615px) {
 	.nav-container{
 		height: 200px;
@@ -87,6 +91,29 @@ Homepage
 	padding-right: 10px;
 	margin: auto
 
+
+}
+}
+
+
+
+/*------------------------
+contact page media queries
+------------------------*/
+@media (max-width: 800px) {
+	.contact h1{
+ 
+  font-size: 45px;
+
+}
+
+	.home_info p{
+ 
+  font-size: 20px;
+}
+
+#slash{
+  font-size: 25px;
 
 }
 }

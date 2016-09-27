@@ -95,14 +95,15 @@ footer
 .main-footer{
  background: #333333;
   padding-top: 10px;
-  margin: auto;
-  height: 55px;
+   height: 55px;
   text-align: center;
   color: #fff;
   border-top-style:solid;
   border-color: #A3D249;
   border-width: 6px;
   margin-bottom: 0px;
+
+
 
 }
 
@@ -113,75 +114,61 @@ footer
 /*-------------
 contact page
 --------*/
-.contact{
-      width: 100%;
-  height: 100%;
-  background-color:#5B5959;
-  color: white;
-  border-style: solid;
-  border-style: inset;
-  border-width: 10px;
-  border-color: #A3D249;
- 
-  box-shadow: 10px 10px 5px #888888;
-  border-bottom: none;
+
+
+
+.contact h1{
   margin: auto;
-  margin-bottom: 0;
-  padding: 10%;
-
-
+  text-align: center;
+ 
+  font-size: 60px;
+color:  #A3D249;
+font-weight: bolder;
+border-bottom: solid;
+  
+width: 40%;
 }
 
-.contact form h1{
-  margin: 0 0 30px 0;
+.contact{
+  color: #fff;
+  background: #333;
+ 
+  padding: 3.2em 0;
+
   text-align: center;
   border-bottom: solid;
-color: #fff;
+  border-color: #A3D249;
+  border-width: 10px;
+  margin-bottom: 20px;
 
 }
-
-form{
+.img_contact{
+  height: 225px;
+  width: 225px;
   
-  background:  #333333;
-  border-radius: 8px;
-
-  margin: 10px auto;
-   max-width: 400px;
-  padding: 10px 20px;
-  
+  padding-top: 10px;
+  margin-bottom: 15px;
 
 
 }
 
-label{
-color: #A3D249;
+.home_info p{
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+#slash{
+  font-size: 40px;
+
+}
+#slash a{
+  color:#A3D249 ;
 
 }
 
-input[type="text"],input[type="email"],textarea{
-  background: #f1f1f1;
-  border:none;
-  color: #333;
-  margin: 0;
-  margin-bottom: 25px;
-  padding: 10px;
-  width:100%;
-  border-radius: 5px;
-  font-weight: bold;
-}
 
-.sub-btn{
-  padding: 19px 39px ; 
-  color: #5B5959;
-  text-align: center;
-  width: 100%;
-  border-radius: 10px;
-  border-width: 1px 1px 3px;
-  background: #A3D249;
-  font-size: 18px;
-font-weight: bold;
-margin-bottom: 20px;
-}
+
+
 
 
 /*-------------
@@ -233,6 +220,10 @@ About page
   
 
 }
+.off_two p {
+  color: white;
+}
+
 .off_one{
  width: 100%;
 }

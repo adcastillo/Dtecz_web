@@ -1,4 +1,5 @@
 class WebPagesController < ApplicationController
+	
   def home
   end
 
@@ -6,8 +7,16 @@ class WebPagesController < ApplicationController
   end
 
   def contact
+
+  	
   end
 
   def service
+
   end
+
+
+
+
+
 end

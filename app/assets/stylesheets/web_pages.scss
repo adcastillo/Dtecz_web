@@ -78,13 +78,27 @@ Homepage
 /*--------
  media queries
 ------*/
-@media (min-width: 800px) {
-  /*---------------
-home page
-----------------*/
-.home_info p{
-	font-size: 25px;
+@media (max-width: 700px) {
+.img_ser{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  padding-top: 10px;
+  margin-bottom: 5px;
+
+
 }
+
+.img_contact{
+  height: 100px;
+  width: 100px;
+  
+  padding-top: 10px;
+  margin-bottom: 15px;
+
+
+}
+
 
 
 }
@@ -138,7 +152,7 @@ contact page media queries
 }
 
 #slash{
-  font-size: 25px;
+  font-size: 18px;
 
 }
 }

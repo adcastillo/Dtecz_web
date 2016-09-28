@@ -166,10 +166,27 @@ width: 40%;
 
 }
 
-.home_info p{
+.contact_info{
+    width: 80%;
+  height: 500px;
+  background-color:#333333 ;
+  color: white;
+ 
+  
+ 
+  
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 8%;
+}
+
+
+.contact_info p{
   font-weight: bolder;
   font-size: 35px;
-  
+
 }
 
 #slash{
@@ -238,6 +255,8 @@ color: #fff;
     height: 100%;
     margin: 0 auto;
     text-align: center;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
